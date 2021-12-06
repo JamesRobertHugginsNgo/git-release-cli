@@ -1,0 +1,29 @@
+{
+  "name": "git-release-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/index.js",
+  "bin": {
+    "git-release-cli": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamesRobertHugginsNgo/git-release-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JamesRobertHugginsNgo/git-release-cli/issues"
+  },
+  "homepage": "https://github.com/JamesRobertHugginsNgo/git-release-cli#readme",
+  "devDependencies": {
+    "eslint": "^8.4.0"
+  },
+  "dependencies": {
+    "git-release": "github:JamesRobertHugginsNgo/git-release#1.0.0"
+  }
+}
